@@ -6,7 +6,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        > 🎓 感谢你为 openTyut 贡献内容！
+        > 🎓 感谢你为 OpenTYUT 贡献内容！
 
   - type: dropdown
     id: type
