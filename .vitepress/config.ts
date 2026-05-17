@@ -105,7 +105,8 @@ export default defineConfig({
             { text: '留学', link: '/admission/study-abroad' },
           ]
         }
-      ],
+      ]
+    },
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/opentyut/opentyut' }
