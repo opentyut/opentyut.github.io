@@ -62,7 +62,11 @@ npm run dev
 
 ## 📄 许可证
 
-[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+本项目内容（学习资源、导航、心得等）采用 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) 许可证。
+
+- **署名（BY）**：使用、转载须注明出处和作者
+- **非商业性使用（NC）**：禁止商业公司复制、集成或售卖本资源。个人学习、学校教学等非商业用途不受限制
+- **相同方式共享（SA）**：二次创作须以相同许可证发布，防止内容被"私有化"
 
 ---
 
