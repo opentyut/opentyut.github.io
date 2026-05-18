@@ -2,6 +2,7 @@
   "name": "OpenTYUT",
   "version": "1.0.0",
   "description": "开放式太原理工大学计算机学习资源站",
+  "license": "CC-BY-NC-SA-4.0",
   "type": "module",
   "scripts": {
     "dev": "vitepress dev",
