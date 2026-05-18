@@ -1,0 +1,257 @@
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - link "Skip to content" [ref=e4] [cursor=pointer]:
+      - /url: "#start-of-content"
+    - banner [ref=e6]:
+      - heading "Navigation Menu" [level=2] [ref=e7]
+      - generic [ref=e8]:
+        - generic [ref=e9]:
+          - button "Toggle navigation" [ref=e11] [cursor=pointer]
+          - link "Homepage" [ref=e17] [cursor=pointer]:
+            - /url: /
+            - img [ref=e18]
+          - generic [ref=e20]:
+            - link "Sign in" [ref=e21] [cursor=pointer]:
+              - /url: /login?return_to=https%3A%2F%2Fgithub.com%2Fopentyut
+            - button "Appearance settings" [ref=e24] [cursor=pointer]:
+              - img
+        - link "opentyut" [ref=e26] [cursor=pointer]:
+          - /url: /opentyut
+  - main [ref=e29]:
+    - generic [ref=e30]:
+      - generic [ref=e31]:
+        - generic [ref=e33]:
+          - img "@opentyut" [ref=e35]
+          - generic [ref=e36]:
+            - heading "太原理工大学开源社区（OpenTYUT）" [level=1] [ref=e37]
+            - list:
+              - listitem
+        - navigation "Organization" [ref=e39]:
+          - list [ref=e41]:
+            - listitem [ref=e42]:
+              - link "Overview" [ref=e43] [cursor=pointer]:
+                - /url: /opentyut
+                - img [ref=e44]
+                - text: Overview
+            - listitem [ref=e46]:
+              - link "Repositories" [ref=e47] [cursor=pointer]:
+                - /url: /orgs/opentyut/repositories
+                - img [ref=e48]
+                - text: Repositories
+            - listitem [ref=e50]:
+              - link "Projects" [ref=e51] [cursor=pointer]:
+                - /url: /orgs/opentyut/projects
+                - img [ref=e52]
+                - text: Projects
+            - listitem [ref=e54]:
+              - link "Packages" [ref=e55] [cursor=pointer]:
+                - /url: /orgs/opentyut/packages
+                - img [ref=e56]
+                - text: Packages
+            - listitem [ref=e58]:
+              - link "People" [ref=e59] [cursor=pointer]:
+                - /url: /orgs/opentyut/people
+                - img [ref=e60]
+                - text: People
+      - generic [ref=e63]:
+        - generic [ref=e66]:
+          - generic [ref=e68]:
+            - link "README.md" [ref=e71] [cursor=pointer]:
+              - /url: /opentyut/.github/tree/master/profile/README.md
+            - article [ref=e72]:
+              - generic [ref=e73]:
+                - heading "OpenTYUT 🎓" [level=1] [ref=e74]
+                - 'link "Permalink: OpenTYUT 🎓" [ref=e75] [cursor=pointer]':
+                  - /url: "#opentyut-"
+                  - img [ref=e76]
+              - paragraph [ref=e78]:
+                - strong [ref=e79]: 太原理工大学开源社区
+                - text: ——由在校生和已毕业学长自发组建、独立维护。
+              - blockquote [ref=e80]:
+                - paragraph [ref=e81]: 为计算机及相关专业学生提供真诚、实用、低门槛的学习导航，帮新生少走弯路。
+              - generic [ref=e82]:
+                - heading "项目" [level=2] [ref=e83]
+                - 'link "Permalink: 项目" [ref=e84] [cursor=pointer]':
+                  - /url: "#项目"
+                  - img [ref=e85]
+              - table [ref=e88]:
+                - rowgroup [ref=e89]:
+                  - row "项目 说明" [ref=e90]:
+                    - columnheader "项目" [ref=e91]
+                    - columnheader "说明" [ref=e92]
+                - rowgroup [ref=e93]:
+                  - row "opentyut.github.io 开放式学习资源站，基于 VitePress 构建" [ref=e94]:
+                    - cell "opentyut.github.io" [ref=e95]:
+                      - link "opentyut.github.io" [ref=e96] [cursor=pointer]:
+                        - /url: https://github.com/opentyut/opentyut.github.io
+                    - cell "开放式学习资源站，基于 VitePress 构建" [ref=e97]
+              - generic [ref=e98]:
+                - heading "参与贡献" [level=2] [ref=e99]
+                - 'link "Permalink: 参与贡献" [ref=e100] [cursor=pointer]':
+                  - /url: "#参与贡献"
+                  - img [ref=e101]
+              - paragraph [ref=e103]: 欢迎任何形式的贡献——补充笔记、修正错误、分享资源、改进网站。内容以 Markdown 编写，不需要前端知识即可参与。
+              - paragraph [ref=e104]: 详见各项目的 CONTRIBUTING 指南。
+              - generic [ref=e105]:
+                - heading "许可证" [level=2] [ref=e106]
+                - 'link "Permalink: 许可证" [ref=e107] [cursor=pointer]':
+                  - /url: "#许可证"
+                  - img [ref=e108]
+              - paragraph [ref=e110]:
+                - text: 项目内容采用
+                - link "CC BY-NC-SA 4.0" [ref=e111] [cursor=pointer]:
+                  - /url: https://creativecommons.org/licenses/by-nc-sa/4.0/
+                - text: 许可证——署名、非商业性使用、相同方式共享。
+              - separator [ref=e112]
+              - blockquote [ref=e113]:
+                - paragraph [ref=e114]: "\"不要让绩点成为你唯一的追求。多写代码，多做项目，多看文档。\""
+                - paragraph [ref=e115]: —— 某不愿透露姓名的 19 级学长
+          - generic [ref=e116]:
+            - heading "Pinned Loading" [level=2] [ref=e117]:
+              - text: Pinned
+              - generic [ref=e118]: Loading
+              - status
+            - list [ref=e119]:
+              - listitem [ref=e120]:
+                - generic [ref=e122]:
+                  - generic [ref=e124]:
+                    - img [ref=e125]
+                    - link "opentyut.github.io" [ref=e128] [cursor=pointer]:
+                      - /url: /opentyut/opentyut.github.io
+                    - text: Public
+                  - paragraph
+                  - paragraph [ref=e129]:
+                    - generic [ref=e130]: TypeScript
+                    - link "star 1" [ref=e132] [cursor=pointer]:
+                      - /url: /opentyut/opentyut.github.io/stargazers
+                      - img "star" [ref=e133]
+                      - text: "1"
+          - generic [ref=e136]:
+            - heading "Repositories" [level=3] [ref=e137]:
+              - img [ref=e138]
+              - text: Repositories
+            - search [ref=e142]:
+              - generic [ref=e143]:
+                - generic [ref=e144]:
+                  - searchbox "Find a repository…" [ref=e145]
+                  - img [ref=e146]
+                  - generic [ref=e148]: Loading
+                - generic [ref=e149]:
+                  - group [ref=e150]:
+                    - button "Type" [ref=e151] [cursor=pointer]: Type
+                  - group [ref=e153]:
+                    - button "Language" [ref=e154] [cursor=pointer]: Language
+                  - group [ref=e156]:
+                    - button "Sort" [ref=e157] [cursor=pointer]: Sort
+            - generic [ref=e160]:
+              - generic [ref=e161]: Showing 2 of 2 repositories
+              - list [ref=e163]:
+                - listitem [ref=e164]:
+                  - generic [ref=e165]:
+                    - generic [ref=e166]:
+                      - generic [ref=e167]:
+                        - link ".github" [ref=e168] [cursor=pointer]:
+                          - /url: /opentyut/.github
+                        - 'generic "Label: Public" [ref=e169]': Public
+                        - paragraph [ref=e170]: OpenTYUT 组织主页
+                      - generic:
+                        - link "opentyut/.github’s past year of commit activity":
+                          - /url: /opentyut/.github/graphs/commit-activity
+                        - generic:
+                          - link:
+                            - /url: /opentyut/.github/graphs/commit-activity
+                    - generic [ref=e171]:
+                      - generic "0 stars" [ref=e172]:
+                        - img [ref=e173]
+                        - text: "0"
+                      - generic "0 forks" [ref=e175]:
+                        - img [ref=e176]
+                        - text: "0"
+                      - link "0 issues" [ref=e178] [cursor=pointer]:
+                        - /url: /opentyut/.github/issues
+                        - img [ref=e179]
+                        - text: "0"
+                      - link "0 pull requests" [ref=e182] [cursor=pointer]:
+                        - /url: /opentyut/.github/pulls
+                        - img [ref=e183]
+                        - text: "0"
+                      - generic [ref=e185]: Updated May 18, 2026now
+                - listitem [ref=e186]:
+                  - generic [ref=e187]:
+                    - generic [ref=e188]:
+                      - generic [ref=e189]:
+                        - link "opentyut.github.io" [ref=e190] [cursor=pointer]:
+                          - /url: /opentyut/opentyut.github.io
+                        - 'generic "Label: Public" [ref=e191]': Public
+                      - generic:
+                        - link "opentyut/opentyut.github.io’s past year of commit activity":
+                          - /url: /opentyut/opentyut.github.io/graphs/commit-activity
+                        - generic:
+                          - link:
+                            - /url: /opentyut/opentyut.github.io/graphs/commit-activity
+                    - generic [ref=e192]:
+                      - generic [ref=e193]: TypeScript
+                      - link "1 star" [ref=e195] [cursor=pointer]:
+                        - /url: /opentyut/opentyut.github.io/stargazers
+                        - img [ref=e196]
+                        - text: "1"
+                      - generic "0 forks" [ref=e198]:
+                        - img [ref=e199]
+                        - text: "0"
+                      - link "0 issues" [ref=e201] [cursor=pointer]:
+                        - /url: /opentyut/opentyut.github.io/issues
+                        - img [ref=e202]
+                        - text: "0"
+                      - link "0 pull requests" [ref=e205] [cursor=pointer]:
+                        - /url: /opentyut/opentyut.github.io/pulls
+                        - img [ref=e206]
+                        - text: "0"
+                      - generic [ref=e208]: Updated May 18, 202621 minutes ago
+        - generic [ref=e210]:
+          - generic [ref=e212]:
+            - link "People" [ref=e213] [cursor=pointer]:
+              - /url: /orgs/opentyut/people
+              - heading "People" [level=4] [ref=e214]
+            - paragraph [ref=e215]: This organization has no public members. You must be a member to see who’s a part of this organization.
+          - generic [ref=e218]:
+            - heading "Top languages" [level=4] [ref=e219]
+            - paragraph [ref=e220]: Loading…
+          - generic [ref=e223]:
+            - heading "Most used topics" [level=4] [ref=e224]
+            - paragraph [ref=e225]: Loading…
+  - contentinfo [ref=e226]:
+    - heading "Footer" [level=2] [ref=e227]
+    - generic [ref=e228]:
+      - generic [ref=e229]:
+        - link "GitHub Homepage" [ref=e230] [cursor=pointer]:
+          - /url: https://github.com
+          - img [ref=e231]
+        - generic [ref=e233]: © 2026 GitHub, Inc.
+      - navigation "Footer" [ref=e234]:
+        - heading "Footer navigation" [level=3] [ref=e235]
+        - list "Footer navigation" [ref=e236]:
+          - listitem [ref=e237]:
+            - link "Terms" [ref=e238] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/github-terms/github-terms-of-service
+          - listitem [ref=e239]:
+            - link "Privacy" [ref=e240] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/privacy-policies/github-privacy-statement
+          - listitem [ref=e241]:
+            - link "Security" [ref=e242] [cursor=pointer]:
+              - /url: https://github.com/security
+          - listitem [ref=e243]:
+            - link "Status" [ref=e244] [cursor=pointer]:
+              - /url: https://www.githubstatus.com/
+          - listitem [ref=e245]:
+            - link "Community" [ref=e246] [cursor=pointer]:
+              - /url: https://github.community/
+          - listitem [ref=e247]:
+            - link "Docs" [ref=e248] [cursor=pointer]:
+              - /url: https://docs.github.com/
+          - listitem [ref=e249]:
+            - link "Contact" [ref=e250] [cursor=pointer]:
+              - /url: https://support.github.com?tags=dotcom-footer
+          - listitem [ref=e251]:
+            - button "Manage cookies" [ref=e253] [cursor=pointer]
+          - listitem [ref=e254]:
+            - button "Do not share my personal information" [ref=e256] [cursor=pointer]

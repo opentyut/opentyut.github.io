@@ -28,6 +28,39 @@ export default defineConfig({
   base: '/',
   ignoreDeadLinks: true,
 
+  head: [
+    ['meta', { property: 'og:type', content: 'website' }],
+    ['meta', { property: 'og:site_name', content: 'OpenTYUT' }],
+    ['meta', { property: 'og:image', content: 'https://opentyut.github.io/tyut-open-source-community.png' }],
+    ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
+    ['meta', { name: 'twitter:image', content: 'https://opentyut.github.io/tyut-open-source-community.png' }],
+  ],
+
+  srcExclude: ['**/README.md', '**/CONTRIBUTING.md', '**/_template.md', '**/docs/**'],
+
+  sitemap: {
+    hostname: 'https://opentyut.github.io',
+  },
+
+  transformHead({ pageData }) {
+    const title = (pageData.frontmatter.title as string) || pageData.title
+    const desc = (pageData.frontmatter.description as string) || pageData.description
+    const extra: [string, Record<string, string>][] = []
+    if (title) {
+      extra.push(
+        ['meta', { property: 'og:title', content: title }],
+        ['meta', { name: 'twitter:title', content: title }],
+      )
+    }
+    if (desc) {
+      extra.push(
+        ['meta', { property: 'og:description', content: desc }],
+        ['meta', { name: 'twitter:description', content: desc }],
+      )
+    }
+    return extra
+  },
+
   themeConfig: {
     logo: '/logo.svg',
 
