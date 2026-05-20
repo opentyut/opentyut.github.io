@@ -3,6 +3,9 @@ layout: home
 title: OpenTYUT | 太原理工大学计算机学习资源站
 description: 面向太原理工大学计算机及相关专业学生的开源学习资源站，提供学习路线、课程笔记、外部资源聚合。由在校生和已毕业学长共同维护。
 head:
+  - - meta
+    - name: keywords
+      content: 太原理工大学,TYUT,计算机,学习资源,学习指南,开源社区,云顶书院
   - - script
     - type: application/ld+json
     - >
