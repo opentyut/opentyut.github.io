@@ -207,7 +207,7 @@ export default defineConfig({
         {
           text: '考研',
           items: [
-            { text: '施工中', link: '' },
+            { text: '考研规划', link: '/admission/kao-yan/planning' },
           ]
         },
         {
