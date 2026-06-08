@@ -148,7 +148,16 @@ export default defineConfig({
             { text: '反对 PUA', link: '/survival/li-zhi/anti-pua' },
             { text: '悲壮的学习方式', link: '/survival/li-zhi/tragic-learning' },
             { text: '你的身价是多少', link: '/survival/li-zhi/your-value' },
-            { text: '正确地浪费剩下的时间', link: '/survival/li-zhi/waste-time' },
+            {
+              text: '请正确安排你的大学时间',
+              collapsed: true,
+              items: [
+                { text: '概览', link: '/survival/li-zhi/waste-time' },
+                { text: '就业时间线', link: '/survival/li-zhi/waste-time-employment' },
+                { text: '考研时间线', link: '/survival/li-zhi/waste-time-kao-yan' },
+                { text: '保研时间线', link: '/survival/li-zhi/waste-time-bao-yan' },
+              ]
+            },
             { text: '总有更值得做的事情', link: '/survival/li-zhi/better-things' },
             { text: '认识信息素养', link: '/survival/li-zhi/info-literacy' },
             { text: '关于工作', link: '/survival/li-zhi/about-work' },
