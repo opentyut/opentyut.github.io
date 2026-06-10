@@ -120,6 +120,7 @@ export default defineConfig({
             { text: '推荐书单', link: '/resources/books' },
             { text: '推荐视频课程', link: '/resources/video' },
             { text: '提问的艺术', link: '/resources/how-to-ask' },
+            { text: '开源应用推荐', link: '/resources/open-source-apps' },
           ]
         }
       ],
