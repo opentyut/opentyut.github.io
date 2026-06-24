@@ -23,11 +23,14 @@ hero:
   tagline: 面向全校学生 · 免费开源 · 社区共建
   actions:
     - theme: brand
-      text: 开始学习
+      text: 大一先读
+      link: /survival/
+    - theme: alt
+      text: 学开发
       link: /guide/
     - theme: alt
-      text: GitHub
-      link: https://github.com/opentyut/opentyut
+      text: 升学选择
+      link: /admission/
   image:
     src: /tyut-open-source-community.png
     alt: OpenTYUT
