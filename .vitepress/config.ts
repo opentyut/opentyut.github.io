@@ -120,6 +120,7 @@ export default defineConfig({
             { text: '推荐书单', link: '/resources/books' },
             { text: '推荐视频课程', link: '/resources/video' },
             { text: '提问的艺术', link: '/resources/how-to-ask' },
+            { text: '开源应用推荐', link: '/resources/open-source-apps' },
           ]
         }
       ],
@@ -136,6 +137,7 @@ export default defineConfig({
           items: [
             { text: '欢迎来到太原理工大学', link: '/survival/li-zhi/welcome' },
             { text: '你想要做什么', link: '/survival/li-zhi/what-to-do' },
+            { text: '为什么选择计算机', link: '/survival/li-zhi/why-cs' },
             {
               text: '失败的思维方式',
               collapsed: true,
@@ -148,7 +150,16 @@ export default defineConfig({
             { text: '反对 PUA', link: '/survival/li-zhi/anti-pua' },
             { text: '悲壮的学习方式', link: '/survival/li-zhi/tragic-learning' },
             { text: '你的身价是多少', link: '/survival/li-zhi/your-value' },
-            { text: '正确地浪费剩下的时间', link: '/survival/li-zhi/waste-time' },
+            {
+              text: '请正确安排你的大学时间',
+              collapsed: true,
+              items: [
+                { text: '概览', link: '/survival/li-zhi/waste-time' },
+                { text: '就业时间线', link: '/survival/li-zhi/waste-time-employment' },
+                { text: '考研时间线', link: '/survival/li-zhi/waste-time-kao-yan' },
+                { text: '保研时间线', link: '/survival/li-zhi/waste-time-bao-yan' },
+              ]
+            },
             { text: '总有更值得做的事情', link: '/survival/li-zhi/better-things' },
             { text: '认识信息素养', link: '/survival/li-zhi/info-literacy' },
             { text: '关于工作', link: '/survival/li-zhi/about-work' },
@@ -173,6 +184,7 @@ export default defineConfig({
             { text: '选课原则与选课技巧', link: '/survival/tips/course-selection' },
             { text: '突击备考', link: '/survival/tips/exam-cram' },
             { text: '正确解读成绩算法', link: '/survival/tips/gpa' },
+            { text: '志愿时长、pu学分与综测', link: '/survival/tips/student-record' },
             { text: '旁门左道', link: '/survival/tips/tricks' },
           ]
         },
