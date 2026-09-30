@@ -666,9 +666,9 @@ Jeff Bigler 的观察总结和这个相关也值得一读 (**[tact filters](http
 
 ## 相关资源
 
-如果你需要个人电脑、Unix 系统和网络如何运作的基础知识，参阅 [Unix 系统和网络基本原理](http://en.tldp.org/HOWTO/Unix-and-Internet-Fundamentals-HOWTO/)。
+如果你需要个人电脑、Unix 系统和网络如何运作的基础知识，参阅 [Unix 系统和网络基本原理](https://tldp.org/HOWTO/Unix-and-Internet-Fundamentals-HOWTO/)。
 
-当你发布软件或补丁时，试着按[软件发布实践](http://en.tldp.org/HOWTO/Software-Release-Practice-HOWTO/index.html)操作。
+当你发布软件或补丁时，试着按[软件发布实践](https://tldp.org/HOWTO/Software-Release-Practice-HOWTO/index.html)操作。
 
 ## 鸣谢
 

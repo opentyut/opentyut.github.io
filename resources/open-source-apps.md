@@ -27,7 +27,7 @@ description: 面向大学生的开源软件推荐，涵盖开发工具、效率�
 > 注意：无论使用哪种密码管理器，都应启用主密码强度足够、开启双因素认证，并定期备份加密数据库，防止因软件漏洞或设备丢失导致密码泄露。
 
 - [**Bitwarden**](https://github.com/bitwarden/clients) —— 全平台密码管理器，支持浏览器扩展和移动端，数据默认存储在 Bitwarden 云端（已加密），或可自建服务器完全掌控数据
-- [**Keyguard**](https://github.com/AChep/keyguard) —— Bitwarden 的第三方 Android 客户端，UI更简洁好用，数据存储取决于后端配置（云端或自建）
+- [**Keyguard**](https://github.com/AChep/keyguard-app) —— Bitwarden 的第三方 Android 客户端，UI更简洁好用，数据存储取决于后端配置（云端或自建）
 - [**KeePassXC**](https://github.com/keepassxreboot/keepassxc) —— 本地存储密码，数据库文件保存在本地，数据完全掌控在自己手中，适合注重隐私的用户
 
 ## 日常
