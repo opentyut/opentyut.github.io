@@ -91,6 +91,7 @@ export default defineConfig({
           items: [
             { text: '概览', link: '/guide/software-development/' },
             { text: 'AI时代的软件工程', link: '/guide/software-development/software_engineering_with_AI' },
+            { text: 'AI时代的软件工程学习', link: '/guide/software-development/learning-with-ai' },
           ]
         },
         {
