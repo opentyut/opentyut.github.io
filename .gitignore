@@ -6,3 +6,5 @@ dist/
 .DS_Store
 .playwright-mcp/
 /tmp
+.idea
+/tmp

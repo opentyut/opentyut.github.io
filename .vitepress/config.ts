@@ -48,7 +48,7 @@ export default defineConfig({
     ['script', {}, "LA.init({id:'LCICN2wUJ6UAJI93',ck:'LCICN2wUJ6UAJI93'})"],
   ],
 
-  srcExclude: ['**/README.md', '**/CONTRIBUTING.md', '**/_template.md', '**/docs/**'],
+  srcExclude: ['**/README.md', '**/CONTRIBUTING.md', '**/_template.md', '**/docs/**', 'tmp/**'],
 
   sitemap: {
     hostname: 'https://opentyut.github.io',
@@ -92,6 +92,20 @@ export default defineConfig({
             { text: '概览', link: '/guide/software-development/' },
             { text: 'AI时代的软件工程', link: '/guide/software-development/software_engineering_with_AI' },
             { text: 'AI时代的软件工程学习', link: '/guide/software-development/learning-with-ai' },
+            {
+              text: '第一章：计算机入门',
+              collapsed: false,
+              items: [
+                { text: '本章路线', link: '/guide/software-development/basics/' },
+                { text: '1.1 认识键盘与鼠标', link: '/guide/software-development/basics/keyboard-and-mouse' },
+                // { text: '1.2 认识电脑与操作系统', link: '/guide/software-development/basics/computer-and-os' },
+                // { text: '1.3 文件与文件夹', link: '/guide/software-development/basics/files-and-folders' },
+                // { text: '1.4 浏览器、搜索与软件下载', link: '/guide/software-development/basics/browser-and-downloads' },
+                // { text: '1.5 编辑器与基本终端操作', link: '/guide/software-development/basics/editor-and-terminal' },
+                // { text: '1.6 尽早使用 Git', link: '/guide/software-development/basics/git' },
+                // { text: '1.7 使用 AI 辅助学习', link: '/guide/software-development/basics/learning-with-ai' },
+              ]
+            },
           ]
         },
         {
