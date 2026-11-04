@@ -18,11 +18,7 @@ description: 面向电脑与编程新手的基础学习路径，从键盘、操�
 | 顺序 | 章节 | 学习重点 |
 | --- | --- | --- |
 | 1.1 | [认识键盘与鼠标](/guide/software-development/basics/keyboard-and-mouse) | 按键、输入法、标点、选择与快捷键 |
-| 1.2 | [认识电脑与操作系统](/guide/software-development/basics/computer-and-os) | 硬件用途、系统信息、应用与进程 |
-| 1.3 | [文件与文件夹](/guide/software-development/basics/files-and-folders) | 文件类型、路径、整理、解压与备份 |
-| 1.4 | [浏览器、搜索与软件下载](/guide/software-development/basics/browser-and-downloads) | 查找资料、辨认官网、选择安装包 |
-| 1.5 | [编辑器与基本终端操作](/guide/software-development/basics/editor-and-terminal) | 编辑文本、打开目录、理解与执行命令 |
-| 1.6 | [尽早使用 Git](/guide/software-development/basics/git) | 记录笔记的修改、查看差异、恢复版本与远程保存 |
-| 1.7 | [使用 AI 辅助学习](/guide/software-development/basics/learning-with-ai) | 提供上下文、获取提示、核实回答与保留理解 |
+| 1.2 | 更新中... |
+
 
 建议按顺序阅读，已经熟悉的部分可以直接跳过。AI 辅助学习一节也可以在前几节遇到问题时提前查阅。
