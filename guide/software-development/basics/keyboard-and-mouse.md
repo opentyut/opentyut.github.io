@@ -42,13 +42,13 @@ Windows 的典型特征：
 5. **使用鼠标**：单击、双击、右键菜单、滚动、拖动、选择文字。
 6. **熟悉常用快捷操作**：复制、剪切、粘贴、全选、撤销、保存、查找和切换窗口。
 
-## 去哪里学
+## 参考资料
 
 - **Windows 入门教程（视频、Bilibili）:** [Windows 入门教程](https://www.bilibili.com/video/BV1VV4y1U7Kn) P1-P10
 - **全尺寸键盘介绍（网站、互动式）:** [键盘键位图](https://keyboard-test.cn/tools/typing/keyboard-layout)
 - **MacOS 入门介绍（视频、Bilibili）**：[MacOS 入门教程](https://www.bilibili.com/video/BV1KH4y1y7p5?) 请注意：MacOS 的操作不适用于 Windows，如果你确定你购买的是「苹果电脑」，再参考本教程。
 
-其他参考资料：
+## 其他参考资料：
 
 - **Windows 官方资料**：[Windows 中的键盘快捷方式](https://support.microsoft.com/zh-cn/accessibility/windows/keyboard-shortcuts-in-windows)。微软（Microsoft，Windows 开发公司）提供的键盘快捷方式介绍，可以先忽略「Windows Copilot 键盘快捷方式」章节。
 - **微软简体输入法教程**：[「Microsoft 简体中文输入法」](https://support.microsoft.com/zh-cn/windows/hardware/input-devices/microsoft-simplified-chinese-ime)用于查阅输入状态与标点切换。
